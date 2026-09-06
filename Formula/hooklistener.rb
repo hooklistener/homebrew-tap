@@ -4,25 +4,25 @@
 class Hooklistener < Formula
   desc "CLI tool for webhook inspection and local tunnel exposure"
   homepage "https://github.com/hooklistener/hooklistener-cli"
-  version "1.8.6"
+  version "1.8.7"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/hooklistener/hooklistener-cli/releases/download/v#{version}/hooklistener-aarch64-apple-darwin.tar.gz"
-      sha256 "7f4448b5ec4a7380402ac7ebcf3b337966f3aac1d86508c6119d3dcde93bdac3"
+      sha256 "986fd38facd0b998853f48f3e23c2db503deeda8a99b7369252ac741c534a585"
     end
 
     on_intel do
       url "https://github.com/hooklistener/hooklistener-cli/releases/download/v#{version}/hooklistener-x86_64-apple-darwin.tar.gz"
-      sha256 "b2cbb223c0a2d6d7f3ff0149382c1c6764c8dc725d0fa8370da9f01d2efa020b"
+      sha256 "2319e282d5ab47dd74d016fe7289ef2e6e391858bb74f0acfd7b69ecd5997ac8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hooklistener/hooklistener-cli/releases/download/v#{version}/hooklistener-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ead082c4c2d4aded37707f0892a9e27ef77772ddad8f74252c20e6cddcd234ab"
+      sha256 "aa2e9943b4daa2d8caafa1714b863b731ce5d711c94100b14e88895e997381e7"
     end
   end
 
